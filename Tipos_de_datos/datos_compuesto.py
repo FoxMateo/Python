@@ -9,5 +9,14 @@ print(lista[2])
 tupla = ("oscar mateo", "cositas", True, 1.80)
 print(tupla[1])
 
-#creando un conjunto, no tienen un orden fijo, son casi iguales que las listas aunque no se pueden modifical como las tuplas (set)
-tupla = {"oscar mateo", "cositas", True, 1.80}
+#creando un conjunto (set)(no se accede a elementos por indice, no alamacena datos duplicados)
+set = {"oscar mateo", "cositas", True, 1.80}
+print (set)
+
+#creando un diccionario (dict) (es clave : valor separados por comas)
+dict = {
+    "nombre" : "oscar mateo",
+    "cositas" : "jesucristo",
+    "altura" : 1.80
+}
+print(dict ["cositas"])
